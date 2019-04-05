@@ -17,3 +17,6 @@ fatal: The current branch dev has no upstream branch.
        To push the current branch and set the remote as upstream, use
                 git push --set-upstream origin dev
 ```
+
+
+- warning: LF will be replaced by CRLF in ，这是因为Linux和Windows换行符不一样，忽略它

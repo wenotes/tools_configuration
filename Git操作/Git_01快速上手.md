@@ -18,7 +18,8 @@ git init                #初始化一个本地仓库
 
 二、拉取远程仓库内容
 ```
-git pull    #如果有readme.md文档的话，没有的话执行一下也不碍事
+git pull
+# 第一次拉去远程内容会让你输入用户名和密码
 ```
 
 三、本地创建文件夹或者文件（文件必须得有），然后提交
@@ -30,7 +31,7 @@ git pull    #如果有readme.md文档的话，没有的话执行一下也不碍�
 #也可以add指定的文件
     git add 文件的路径
 # 可以用git status 看看本地的add和commit情况
-#然后commit
-git commit -m '第一次测试提交'
+#然后commit，内容就添加到本地仓库了
+git commit -m '提交的备注信息'
 ```
 
